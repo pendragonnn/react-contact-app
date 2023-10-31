@@ -1,7 +1,10 @@
-// import React from "react";
+/* eslint-disable no-unused-vars */
+import React from "react";
 import { createRoot } from 'react-dom/client'
+import ContactApp from './components/ContactApp'
 
-const element = <h1>Hello, world!</h1>
+import './styles/style.css'
+
 
 const root = createRoot(document.getElementById('root'))
-root.render(element)
+root.render(<ContactApp/>)
